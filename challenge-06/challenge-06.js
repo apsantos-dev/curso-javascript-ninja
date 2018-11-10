@@ -83,23 +83,18 @@ function convertToHex( color ) {
     case 'turquoise':
       hexa = '#1abc9c';
       break;
-
     case 'green sea':
       hexa = '#16a085';
       break;
-
     case 'belize hole':
       hexa = '#2980b9';
       break;
-
     case 'pumpkin':
       hexa = '#d35400';
       break;
-
     case 'white':
       hexa = '#ecf0f1';
       break;
-
     default:
       return 'Não temos o equivalente hexadecimal para ' + color + '.';
   }
